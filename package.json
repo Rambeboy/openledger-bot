@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cp -r app/config.js config.js && cp -r app/accounts.js accounts.js && node app/index.js",
+    "start": "cp -r config/config.js config.js && cp -r accounts/accounts.js accounts.js && node app/index.js",
     "setup": "node scripts/setup.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json"
