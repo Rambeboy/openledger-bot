@@ -47,12 +47,12 @@ npm install && npm run setup
 
 3. Edit required files in the project root:
 
-- `config.js`:
+- config.js :
   ```bash
   nano app/config.js
   ```
   Paste your JWT token here
-- `accounts.js`:
+- accounts.js :
   ```bash
   nano app/accounts.js
   ```
