@@ -49,12 +49,12 @@ npm install && npm run setup
 
 - config.js :
   ```bash
-  nano app/config.js
+  nano config/config.js
   ```
   Paste your JWT token here
 - accounts.js :
   ```bash
-  nano app/accounts.js
+  nano accounts/accounts.js
   ```
   Put your wallet address here (required for websocket connection)
 
