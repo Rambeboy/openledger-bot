@@ -1,0 +1,29 @@
+{
+  "name": "openledger-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "setup": "node scripts/setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+   "openledger",
+   "bot",
+   "airdrop",
+   "network",
+   "testnet",
+   "rambeboy"
+  ],
+  "author": "Rambeboy",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto": "^1.0.1",
+    "figlet": "^1.8.0",
+    "winston": "^3.17.0",
+    "ws": "^8.18.0"
+  }
+}
