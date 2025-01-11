@@ -26,10 +26,10 @@ An automated bot for claiming daily rewards on OpenLedger Testnet.
 git clone https://github.com/Rambeboy/openledger-bot.git && cd openledger-bot
 ```
 
-2. Install dependencies
+2. Install Dependencies and Setup Accounts
 
 ```bash
-npm install
+npm install && npm run setup
 ```
 
 ## Getting Started
