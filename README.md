@@ -47,8 +47,16 @@ npm install && npm run setup
 
 3. Edit required files in the project root:
 
-- `config.js`: Paste your JWT token here
-- `accounts.js`: Put your wallet address here (required for websocket connection)
+- `config.js`:
+  ```bash
+  nano app/config.js
+  ```
+  Paste your JWT token here
+- `accounts.js`:
+  ```bash
+  nano app/accounts.js
+  ```
+  Put your wallet address here (required for websocket connection)
 
 4. Run the bot
 
