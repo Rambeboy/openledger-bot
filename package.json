@@ -3,27 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cp -r config/config.js config.js && cp -r accounts/accounts.js accounts.js && node app/index.js",
+    "start": "cp -r config/proxy_list.js proxy_list.js && cp -r accounts/accounts.js accounts.js && node app/index.js",
     "setup": "node scripts/setup.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app/index.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json"
   },
-  "keywords": [
-   "openledger",
-   "bot",
-   "airdrop",
-   "network",
-   "testnet",
-   "rambeboy"
-  ],
   "author": "Rambeboy",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "auto connect and ping openledger",
   "dependencies": {
     "axios": "^1.7.9",
+    "axios-retry": "^4.5.0",
+    "chalk": "^5.4.1",
     "crypto": "^1.0.1",
-    "figlet": "^1.8.0",
-    "winston": "^3.17.0",
+    "ethers": "^6.13.5",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5",
     "ws": "^8.18.0"
   }
 }
