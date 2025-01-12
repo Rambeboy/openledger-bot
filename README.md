@@ -47,11 +47,11 @@ npm install && npm run setup
 
 3. Edit required files in the project root:
 
-- config.js :
+- proxy_list.js :
   ```bash
-  nano config/config.js
+  nano config/proxy_list.js
   ```
-  Paste your JWT token here
+  Paste your proxy here
 - accounts.js :
   ```bash
   nano accounts/accounts.js
